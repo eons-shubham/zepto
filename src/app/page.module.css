@@ -1,0 +1,50 @@
+.autoCompleteInput {
+  position: relative;
+  left: 30vw;
+  top: 10vh;
+}
+
+.chipsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.chip span {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.inputbox {
+  padding: 8px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #0070f3;
+  outline: none;
+  width: 40vw;
+}
+
+.itemList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemList li {
+  padding: 8px;
+  cursor: pointer;
+  width: 40vw;
+}
+
+.itemList li:hover {
+  background-color: #f0f0f0;
+}
